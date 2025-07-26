@@ -19,7 +19,7 @@ class PerformanceExplainer:
         """Initialize the Performance Explainer"""
         self.session = None
         self.service_uri = "//blp/refdata"
-        self.openai_client = OpenAI(api_key="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")
+        self.openai_client = OpenAI(api_key="APIKEYPLACEHOLDER")
         self.gmail_script_url = gmail_script_url
         
         # Initialize Bloomberg session
